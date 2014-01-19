@@ -24,7 +24,6 @@ class StatisticsCalculator
         \sort($this->numbers, \SORT_NUMERIC);
     }
 
-
     /**
      * @return int
      */
