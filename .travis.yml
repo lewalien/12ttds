@@ -10,6 +10,9 @@ before_script:
 
 script: phpunit --coverage-text
 
+tools:
+    php_code_coverage: true
+
 notifications:
   email:
     - llewellynthomas@mac.com
