@@ -4,14 +4,13 @@ php:
   - 5.3
   - 5.4
   - 5.5
+  - hhvm
+
 
 before_script:
   - composer install
 
 script: phpunit --coverage-text
-
-tools:
-    php_code_coverage: true
 
 notifications:
   email:
