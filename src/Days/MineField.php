@@ -78,4 +78,11 @@ class MineField
             return $hint;
         }
     }
+    
+    private function testingGitHubApi()
+    {
+        $val = 'foo';
+        
+        return $val;
+    }
 } 
