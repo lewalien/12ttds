@@ -79,6 +79,9 @@ class MineField
         }
     }
     
+    /**
+     * this function is not used, only here to see github api
+     */
     private function testingGitHubApi()
     {
         $val = 'foo';
